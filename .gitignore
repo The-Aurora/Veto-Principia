@@ -1,0 +1,14 @@
+*Veto-Principia/.vs
+*/Binaries
+*/Build
+*Veto-Principia/Content/StarterContent/
+*/Intermediate
+*/Saved
+
+*/DerivedDataCache
+
+*/*Veto-Principia.png
+*/*_BuiltData.uasset
+*/*Veto-Principia.VC.db
+*.log
+*.sln
