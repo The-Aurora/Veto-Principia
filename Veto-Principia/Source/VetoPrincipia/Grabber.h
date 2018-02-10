@@ -34,7 +34,7 @@ private:
 
 	// GrabReach is for when the game attempts to hit an object, HoldingReach is for when the object is being held
 	float GrabReach = 550.f;
-	float HoldingReach = 600.f;
+	float HoldingReach = 400.f;
 
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputComponent = nullptr;

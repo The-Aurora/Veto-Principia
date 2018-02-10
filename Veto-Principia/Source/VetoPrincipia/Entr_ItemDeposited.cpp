@@ -55,7 +55,8 @@ float UEntr_ItemDeposited::GetMassInBox()
 
 	for (const auto* OverlappingActor : OverlappingActors)
 	{
-		OverlappingActor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+		TotalMass += OverlappingActor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+		UE_LOG(LogTemp, Error, TEXT("Overlapping actor: %s, TotalMass: %s"), *OverlappingActor->GetName(), *FString::SanitizeFloat(TotalMass));
 	}
 
 	return TotalMass;
