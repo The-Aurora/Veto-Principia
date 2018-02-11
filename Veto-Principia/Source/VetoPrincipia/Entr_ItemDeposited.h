@@ -34,7 +34,7 @@ private:
 	AActor* Object = nullptr;
 
 	UPROPERTY(EditAnywhere)
-		float MassToOpen = 5.f;
+		float MassToOpen = 100.f;
 
 	UPROPERTY(EditAnywhere)
 		ATriggerVolume* BoxTriggerVolume = nullptr;
