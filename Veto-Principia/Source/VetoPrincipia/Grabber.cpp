@@ -28,6 +28,7 @@ void UGrabber::BeginPlay()
 		UE_LOG(LogTemp, Error, TEXT("(Grabber.cpp) PhysicsHandle or InputComponent failed to get assigned. On: %s"), *GetOwner()->GetName());
 		return;
 	}
+
 }
 
 // Find a attached Physics Handle to owner
