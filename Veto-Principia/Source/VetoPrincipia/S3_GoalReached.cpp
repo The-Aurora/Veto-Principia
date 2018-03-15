@@ -25,7 +25,7 @@ void US3_GoalReached::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	void CheckForGoalStatus();
+	CheckForGoalStatus();
 }
 
 //* Check whether the goal has been reached, if true the function broadcasts into BP
