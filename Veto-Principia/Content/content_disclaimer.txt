@@ -1,1 +1,3 @@
 This project uses the Starter Content pack content provided by Epic Games through Unreal Engine
+
+IES_Filters are provided from Derek Jenson blog site http://www.derekjenson.com/3d-blog/ies-light-profiles
