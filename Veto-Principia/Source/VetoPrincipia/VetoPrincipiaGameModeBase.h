@@ -6,15 +6,8 @@
 #include "GameFramework/GameModeBase.h"
 #include "VetoPrincipiaGameModeBase.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class VETOPRINCIPIA_API AVetoPrincipiaGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
-	
-	
-	
 };
