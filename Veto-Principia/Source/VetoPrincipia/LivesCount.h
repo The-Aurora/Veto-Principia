@@ -19,6 +19,9 @@ public:
 	// Ticks every frame
 	virtual void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		uint8 Lives;
+
 protected:
 
 
@@ -28,5 +31,4 @@ private:
 	AActor* PlayerCharacter;
 	FVector CheckpointS0201_Location;
 	AActor* CheckpointS0201_TriggerVol;
-	uint8 Lives;
 };

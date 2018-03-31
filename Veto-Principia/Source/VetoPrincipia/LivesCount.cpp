@@ -51,7 +51,11 @@ void ULivesCount::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 		{
 			PlayerCharacter->SetActorLocation(CheckpointS0201_Location);
 			Lives--;
-			//if(Lives = 0) { resetlevel }
+			if (Lives == 0) 
+			{ 
+				//Lives = 3;
+				UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+			}
 		}
 	}
 }
